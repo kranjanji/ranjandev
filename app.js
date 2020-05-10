@@ -4,7 +4,7 @@ const port = process.env.PORT || 3002
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/html');
-  res.end('<h1>Hello World : Heroku</h1>');
+  res.end('<h1>Hello World : GitHub and Heroku</h1>');
 });
 
 server.listen(port,() => {
