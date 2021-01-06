@@ -1,5 +1,7 @@
 const http = require('http');
-const port = process.env.PORT || 3002
+//const port = process.env.PORT || 3002
+
+const port = process.env.PORT || 80
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
